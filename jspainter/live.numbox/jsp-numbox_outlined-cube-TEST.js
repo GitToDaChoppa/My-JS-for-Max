@@ -49,29 +49,32 @@ function paint() {
     // stroke();
 
     // cube
-    set_source_rgba(255, 255, 255, 1);
-    rectangle_rounded(secRectW, secRectH, squareSize, squareSize, 5, 5);
-    stroke();
-    rectangle_rounded(soh, sov, squareSize, squareSize, 5, 5);
-    stroke();
-    rectangle_rounded(soh, sov, squareSize, squareSize, 5, 5);
-    stroke();
-
     set_source_rgba(255, 0, 255, 1);
-    move_to(soh, sov);
-    line_to(secRectW, secRectH);
-    stroke();
+    
+    // rectangle_rounded(secRectW, secRectH, squareSize, squareSize, 5, 5);
+    
+    // stroke();
+    
+    // rectangle_rounded(soh, sov, squareSize, squareSize, 5, 5);
+    
+    // stroke();
 
-    move_to(soh + 1, sov + squareSize);
-    line_to(secRectW + 1, secRectH + squareSize);
-    stroke();
-
-    move_to(soh + squareSize - 1, sov);
-    line_to(secRectW + squareSize - 1, secRectH);
-    stroke();
-
-    move_to(soh + squareSize - 1, sov + squareSize);
-    line_to(secRectW + squareSize - 1, secRectH + squareSize);
-    stroke();
+    //
+    // set_source_rgba(255, 0, 255, 1);
+    // move_to(soh, sov);
+    // line_to(secRectW, secRectH);
+    // stroke();
+    //
+    // move_to(soh + 1, sov + squareSize);
+    // line_to(secRectW + 1, secRectH + squareSize);
+    // stroke();
+    //
+    // move_to(soh + squareSize - 1, sov);
+    // line_to(secRectW + squareSize - 1, secRectH);
+    // stroke();
+    //
+    // move_to(soh + squareSize - 1, sov + squareSize);
+    // line_to(secRectW + squareSize - 1, secRectH + squareSize);
+    // stroke();
   }
 }
